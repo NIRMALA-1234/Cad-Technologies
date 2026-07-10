@@ -1,0 +1,228 @@
+.placements-hero{
+    background:
+    linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),
+    url('../assets/images/placement_banner.jpeg');
+
+    background-size:cover;
+    background-position:center;
+    min-height:70vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.placements-hero h1{
+    color:white;
+    font-size:3rem;
+    font-weight:700;
+    margin-top: 80px;
+}
+
+.placements-hero p{
+    color:white;
+}
+
+.placement-support{
+    background:#e2e4e5;
+}
+
+.placement-highlights{
+    background:#9dbfe2;
+}
+
+.highlight-card{
+
+    background:#fff;
+    padding:40px 20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    height:100%;
+    transition:.3s;
+}
+
+.highlight-card:hover{
+    transform:translateY(-5px);
+}
+
+.highlight-card h3{
+    color:#0457d3;
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.highlight-card p{
+    margin:0;
+    font-weight:500;
+}
+
+.company-grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+.company-card{
+    background:#fff;
+    /* padding:20px; */
+    height :150px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.company-card img{
+    width:80%;
+    height:80%;
+    object-fit:contain;
+}
+
+.support-card{
+    background:#FFFFFF;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.support-card i{
+    font-size:40px;
+    color:#2563EB;
+    margin-bottom:15px;
+}
+.card-1{
+    background: #EFF6FF;
+}
+.card-2{
+    background: #DBEAFE;
+}
+.card-3{
+    background: #BFDBFE;
+}
+
+.industry-placement{
+    background:#eaf2ff;
+}
+
+.industry-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.industry-card{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:12px;
+    font-weight:600;
+}
+
+/* .process-section{
+    background:white;
+} */
+.process-section{
+    position:relative;
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url('../assets/images/placement_process.jpeg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.process-section .container{
+    position:relative;
+    z-index:1;
+}
+.process-section .section-title{
+    color:white;
+}
+.process-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+/* .process-step{
+    background:#0457d3;
+    color:white;
+    padding:20px 30px;
+    border-radius:12px;
+    font-weight:600;
+} */
+ .process-step{
+    background:#1E3A8A;
+    color:#ffffff;
+    padding:20px 30px;
+    border-radius:12px;
+    font-weight:600;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+/* .process-step:hover{
+    transform:translateY(-5px);
+    background:white;
+} */
+/* WHY STUDENTS CHOOSE US */
+
+.why-placement{
+    background: #f8f9fa;
+    /* margin-left: 50px; */
+}
+
+.placement-list{
+    list-style:none;
+    padding-left:0;
+}
+
+.placement-list li{
+    font-size:1.15rem;
+    margin-bottom:10px;
+    padding-left:35px;
+    position:relative;
+    font-weight:300;
+}
+
+.placement-list li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    color:#0d6efd;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+.placement-side-img{
+    width:100%;
+    max-width:500px;
+    height:380px;
+    object-fit:cover;
+    border-radius:15px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.15);
+
+    transition:0.4s;
+}
+
+.placement-side-img:hover{
+    transform:scale(1.03);
+}
+
+.cta-placement{
+    background:#0457d3;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}

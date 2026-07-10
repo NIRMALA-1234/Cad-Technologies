@@ -1,0 +1,239 @@
+@media (max-width:992px){
+    .hero h1{
+        font-size:2.5rem;
+    }
+    .hero h2{
+        font-size:1.2rem;
+    }
+    .about-img{
+        height:350px;
+        margin-bottom:30px;
+    }
+    .course-card{
+        min-height:220px;
+    }
+}
+
+@media (max-width:768px){
+    .section-padding{
+        padding:60px 0;
+    }
+    .navbar-logo{
+        height:50px;
+    }
+    .brand-text{
+        font-size:1rem;
+    }
+    .hero{
+        min-height:80vh;
+        padding:80px 20px;
+    }
+    .hero h1{
+        font-size:2rem;
+    }
+    .hero h2{
+        font-size:1rem;
+    }
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+    .hero-buttons .btn{
+        width:100%;
+        max-width:280px;
+    }
+    .about-img{
+        height:300px;
+    }
+    .whatsapp-btn,
+    .call-btn,
+    .instagram-btn{
+        width:50px;
+        height:50px;
+        font-size:22px;
+    }
+    .instagram-btn{
+        bottom:140px;
+    }
+    .whatsapp-btn{
+        bottom:80px;
+    }
+    .call-btn{
+        bottom:20px;
+    }
+}
+
+@media (max-width:576px){
+    .navbar-logo{
+        height:40px;
+    }
+    .brand-text{
+        font-size: 0.85rem;
+    }
+    .hero h1{
+        font-size:1.7rem;
+    }
+    .hero h2{
+        font-size:0.95rem;
+    }
+    .section-title{
+        font-size:1.8rem;
+    }
+    .stat-card{
+        margin-bottom:20px;
+    }
+}
+
+/* ------------------- courses page--------------------- */
+@media(max-width:768px){
+    .courses-hero h1{
+    font-size:2rem;
+    }
+
+    .courses-hero p{
+        font-size:1rem;
+    }
+
+    .course-img{
+        height:220px;
+        margin-bottom:25px;
+    }
+
+    .course-category{
+        text-align:center;
+    }
+
+    .course-category h2{
+        text-align: center;
+        margin-bottom:20px;
+    }
+
+    .course-category ul{
+        text-align:left;
+        display:inline-block;
+        padding-left:18px;
+    }
+
+}
+
+@media(max-width:991px){
+
+    .course-category h2{
+        text-align:center;
+    }
+
+    .course-img{
+        margin-bottom:25px;
+        height:220px;
+    }
+
+    .course-category ul{
+        margin-top:15px;
+    }
+
+    .enroll-btn{
+        display:block;
+        width:max-content;
+        margin:20px auto 0;
+    }
+}
+
+/* contact page */
+@media(max-width:768px){
+    .contact-hero{
+        min-height:35vh;
+    }
+    .contact-hero h1{
+        font-size:2rem;
+    }
+    .contact-hero p{
+        font-size:1rem;
+    }
+    .contact-card{
+        padding:25px;
+    }
+    .contact-details{
+        margin-top:20px;
+    }
+    form{
+        padding:20px;
+    }
+    .map-section iframe{
+        height:300px;
+    }
+}
+
+/* Enquiry page */
+
+@media(max-width:992px){
+    .course-checkboxes{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:576px){
+    .course-checkboxes{
+        grid-template-columns:1fr;
+    }
+}
+
+/* enquiry  */
+
+@media(max-width:768px){
+
+    .enquiry-hero h1{
+        font-size:2rem;
+    }
+    .enquiry-info{
+        margin-bottom:20px;
+    }
+    #leadForm{
+        padding:20px;
+    }
+    .course-selection-wrapper{
+        max-height:250px;
+    }
+}
+
+@media(max-width:576px){
+
+    .course-checkboxes{
+        grid-template-columns:1fr;
+    }
+}
+
+/* ABOUT PAGE */
+
+@media(max-width:768px){
+    .about-hero{
+        min-height:40vh;
+    }
+
+    .about-hero h1{
+        font-size:2rem;
+    }
+
+    .about-hero p{
+        font-size:1rem;
+    }
+
+    .about-main-img{
+        margin-bottom:25px;
+    }
+}
+/* placements */
+@media(max-width:768px){
+
+    .placements-hero h1{
+        font-size:2rem;
+    }
+
+    .placements-hero p{
+        font-size:1rem;
+    }
+
+    .process-step{
+        width:100%;
+        text-align:center;
+    }
+}

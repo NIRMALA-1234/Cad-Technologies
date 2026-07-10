@@ -1,0 +1,144 @@
+.about-hero{
+    background:
+    linear-gradient(
+    rgba(0,0,0,.55),
+    rgba(0,0,0,.55)
+    ),
+    url('../assets/images/about_banner.jpeg');
+
+    background-size:cover;
+    background-position:center;
+    min-height:70vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.about-hero h1{
+    color:white;
+    font-size:3rem;
+    font-weight:700;
+}
+
+.about-hero p{
+    color:white;
+    font-size:1.1rem;
+}
+
+.about-main-img{
+    width:100%;
+    border-radius:15px;
+    object-fit:cover;
+}
+.about-company{
+    background: #ffffff;
+}
+.mission-section{
+    background:#53799f;
+}
+
+.mission-card
+{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    height:100%;
+    text-align:center;
+}
+.program-section{
+    background: #fdfefe;
+}
+.program-card{
+    background:rgb(135, 205, 217);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    height:100%;
+    text-align:center;
+}
+
+.benefit-card,
+.choose-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    height:100%;
+    text-align:center;
+}
+.choose-card{
+    font-size: large;
+    font-weight:900;
+}
+
+.program-card h4,
+.benefit-card h4{
+    color:#0457d3;
+}
+.benefits-section{
+    background: #d1e2f4;
+}
+.industry-grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.industry-card{
+    background:rgba(255, 255, 255, 0.95);
+    color:#393b3d;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    font-weight:900;
+    font-size:large;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.industry-card:hover{
+    transform:translateY(-5px);
+    background:white;
+}
+
+.industry-section{
+    position:relative;
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)
+    ),
+    url('../assets/images/industries_bg.jpeg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.industry-section .container{
+    position:relative;
+    z-index:1;
+}
+.industry-section .section-title{
+    color:white;
+}
+.choose-us{
+    background:#d6d7d8;
+}
+
+.cta-section{
+    background:#0457d3;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.cta-section h2{
+    margin-bottom:20px;
+}
+
+.cta-section p{
+    margin-bottom:25px;
+}
